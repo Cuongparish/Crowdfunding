@@ -13,7 +13,7 @@ export default function AppLogo({ width, height }: { width?: string; height?: st
                 <img src="/images/h2a-logo.png" alt="h2a-logo" />
             </div>
 
-            <span>Crowdfunding</span>
+            <span style={{ color: "#4a536b", fontSize: "25px" }}>Crowdfunding</span>
         </div>
     );
 }

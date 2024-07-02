@@ -1,17 +1,17 @@
-import { theme } from "antd";
+// import { theme } from "antd";
 import "./index.scss";
 
-const { useToken } = theme;
+// const { useToken } = theme;
 
 export default function AppFooter() {
-    const { token } = useToken();
+    // const { token } = useToken();
 
     return (
         <footer
             className="single-column-layout__app-footer"
-            style={{ backgroundColor: token.colorPrimary, color: token.colorWhite }}
+            style={{ backgroundColor: "#aed6dc", color: "#4a536b", fontWeight: "bold" }}
         >
-            <span>H2A Crowdfunding by H2A Team</span>
+            <span>© Crowdfunding | Team 3</span>
         </footer>
     );
 }
