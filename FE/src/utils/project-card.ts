@@ -44,15 +44,15 @@ export function prepareVariantStyle(
             return {
                 // backgroundColor: "#CCE2FF",
                 // color: themeToken.colorInfo,
-                backgroundColor: themeToken.colorWarningBg,
-                color: themeToken.colorWarning,
+                backgroundColor: "#AED6DC",
+                color: "#8AC4CD",
             };
         }
 
         case STATUS_BANNER_VARIANT.FUNDING: {
             return {
-                backgroundColor: "#CBFF92",
-                color: themeToken.colorSuccess,
+                backgroundColor: "#6EC071",
+                color: "#4CAF50",
             };
         }
 
@@ -72,8 +72,8 @@ export function prepareVariantStyle(
 
         case STATUS_BANNER_VARIANT.FUNDING_CLOSED: {
             return {
-                backgroundColor: "#FFC2B5",
-                color: themeToken.colorError,
+                backgroundColor: "#FF9A8D",
+                color: "#FF6D5A",
             };
         }
 

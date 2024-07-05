@@ -1,4 +1,4 @@
-import { Alert, Button, Col, DatePicker, Form, Input, InputNumber, Row, Space } from "antd";
+import { Alert, Button, Col, ConfigProvider, DatePicker, Form, Input, InputNumber, Row, Space } from "antd";
 import moment from "moment";
 import * as React from "react";
 import { DATETIME_FORMAT } from "../../../../constants/datetime";
@@ -112,7 +112,7 @@ export default function CreateProjectForm(props: ICreateProjectFormProps) {
                                 },
                             ]}
                         >
-                            <Input placeholder="your-project-slug" size="large" />
+                            <Input placeholder="Your project slug" size="large" />
                         </Form.Item>
                     </Col>
                 </Row>
@@ -135,7 +135,7 @@ export default function CreateProjectForm(props: ICreateProjectFormProps) {
                         placeholder="Write your description"
                         size="large"
                         autoSize={{ minRows: 5, maxRows: 15 }}
-                        showCount
+                    // showCount
                     />
                 </Form.Item>
 
@@ -396,7 +396,6 @@ export default function CreateProjectForm(props: ICreateProjectFormProps) {
                             </p>
                         </>
                     }
-                    type="warning"
                     showIcon
                     style={{ marginBottom: "24px" }}
                 />

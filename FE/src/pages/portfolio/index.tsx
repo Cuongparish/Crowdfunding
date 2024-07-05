@@ -211,7 +211,7 @@ export default function PortfolioPage(_props: IPortfolioPageProps) {
     const myProjectList = projectsList.filter((item) => item.owner === address);
 
     return (
-        <Card title={<Typography.Title level={2}>Your projects</Typography.Title>}>
+        <Card title={<Typography.Title level={2} style={{color: "#4a536b"}}>Your projects</Typography.Title>}>
             <Space direction="vertical" style={{ width: "100%" }} size={32}>
                 <Table
                     className="project-table"

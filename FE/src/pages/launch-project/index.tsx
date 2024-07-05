@@ -89,7 +89,7 @@ export default function LaunchProject() {
                 <Card className="launch-project-container">
                     <Space align="center" direction="vertical" size="middle">
                         <Typography className="launch-project-title">
-                            <Typography.Title level={2}>Launch a Project</Typography.Title>
+                            <Typography.Title level={2} style={{color: "#4a536b"}}>Launch a Project</Typography.Title>
                             <Typography.Text type="danger">
                                 <span>*</span> All fields are required!
                             </Typography.Text>
