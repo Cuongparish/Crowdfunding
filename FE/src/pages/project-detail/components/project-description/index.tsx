@@ -7,5 +7,11 @@ export interface IProjectDescriptionProps {
 export function ProjectDescription(props: IProjectDescriptionProps) {
     const { content } = props;
 
-    return <Typography.Paragraph style={{ fontSize: "1rem" }}>{content}</Typography.Paragraph>;
+    return (
+        <Typography.Paragraph
+            style={{ fontSize: "1rem", backgroundColor: "#ffffff", borderRadius: "10px", padding: "10px" }}
+        >
+            {content}
+        </Typography.Paragraph>
+    );
 }

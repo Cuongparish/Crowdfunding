@@ -1,9 +1,6 @@
 {
   "name": "crowdfunding-contract",
-  "author": {
-    "name": "Huy Le Minh",
-    "url": "https://github.com/huyleminh"
-  },
+  "author": "team3",
   "version": "1.0.0",
   "scripts": {
     "build": "npx thirdweb@5.31.0 detect",

@@ -1,5 +1,5 @@
 {
-  "name": "crowdfunding-be",
+  "name": "crowdfunding-backend",
   "version": "1.0.0",
   "description": "",
   "main": "src/main.js",
@@ -10,7 +10,7 @@
     "start:dev": "nodemon src/main.js"
   },
   "keywords": [],
-  "author": "Huy Le Minh",
+  "author": "team3",
   "license": "ISC",
   "dependencies": {
     "@thirdweb-dev/chains": "^0.1.48",
