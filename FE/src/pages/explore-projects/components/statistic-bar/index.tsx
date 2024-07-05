@@ -45,12 +45,12 @@ export default function StatisticBar(props: IStatisticBarProps) {
                             value={data.totalProjects.toString()}
                             iconComponent={
                                 <IconWrapper
-                                    color="rgb(245, 158, 11)"
+                                    color="rgb(245, 66, 11)"
                                     backgroundColor="rgba(245, 158, 11, 0.16)"
                                     icon={<FundedProjectsIcon />}
                                 />
                             }
-                            textColor="rgb(245, 158, 11)"
+                            textColor="rgb(245, 66, 11)"
                             formatters={[formatNumberStrWithCommas]}
                             loading={isLoading}
                         />
