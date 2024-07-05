@@ -6,9 +6,9 @@
   },
   "version": "1.0.0",
   "scripts": {
-    "build": "npx thirdweb@latest detect",
-    "deploy": "npm run clean-build && npx thirdweb@latest deploy",
-    "release": "npx thirdweb@latest release",
+    "build": "npx thirdweb@5.31.0 detect",
+    "deploy": "npm run clean-build && npx thirdweb@5.31.0 deploy",
+    "release": "npx thirdweb@5.31.0 release",
     "local-chain": "npx hardhat node --network hardhat",
     "clean-build": "rm -rf ./cache && rm -rf ./artifacts"
   },
