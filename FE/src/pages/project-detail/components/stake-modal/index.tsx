@@ -136,7 +136,7 @@ export default function StakeModal(props: IStakeModalProps) {
                             </Typography.Text>
                         </>
                     }
-                    type="warning"
+                    // type="warning"
                     showIcon
                     style={{ marginBottom: "24px" }}
                 />
