@@ -14,4 +14,4 @@
 
 ## App Demo
 
--   coming soon
+- Youtube demo: [Demo](https://youtu.be/utnaMacWUPg)
